@@ -17,3 +17,27 @@ git add <file>
 git commit -m "<message>"
 
 git push
+
+-------------
+
+git branch <branch name>
+
+git checkout <branch name>
+
+git push -u origin <branch name>
+
+git status
+
+git add 
+
+git commit 
+
+git push
+
+PR is merged to main branch
+
+git checkout main
+
+git pull
+
+this is my test change
