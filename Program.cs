@@ -115,20 +115,34 @@
 
 
 //Write a program that takes a positive integer input from the user and calculates the sum of its digits using a loop.
-Console.WriteLine("Enter the Number ");
+// Console.WriteLine("Enter the Number ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int sum = 0;
+// if ( n < 0)
+// {
+//     Console.WriteLine("Invalid Number ");
+// }
+// else
+// {
+//     while ( n > 0)
+//     {
+//         int a = n % 10;
+//         sum = sum + a;
+//         n = n/10;
+//     }
+//   Console.WriteLine($"Sum of digits is {sum}");
+// }
+
+
+//using while loop, Write a program that counts down from a user specified number to zero.
+Console.WriteLine("Enter the Number");
 int n = Convert.ToInt32(Console.ReadLine());
-int sum = 0;
-if ( n < 0)
+while ( n >0 )
 {
-    Console.WriteLine("Invalid Number ");
+    Console.WriteLine(n);
+    n--;
 }
-else
-{
-    while ( n > 0)
-    {
-        int a = n % 10;
-        sum = sum + a;
-        n = n/10;
-    }
-  Console.WriteLine($"Sum of digits is {sum}");
-}
+
+
+
+
